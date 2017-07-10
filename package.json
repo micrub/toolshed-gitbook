@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/micrub/toolshed-gitbook/issues"
   },
-  "homepage": "https://github.com/micrub/toolshed-gitbook#readme"
+  "homepage": "https://github.com/micrub/toolshed-gitbook#readme",
+  "devDependencies": {
+    "gitbook-cli": "^2.3.0"
+  }
 }
