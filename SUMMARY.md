@@ -1,5 +1,11 @@
 # Summary
 
 * [Introduction](README.md)
-* [In shell](IN_SHELL.md)
+* [The shell](IN_SHELL.md)
+  * [BASH](BASH.md)
+  * [ZSH](BASH.md)
+  * [GIT](GIT_WORLD.md)
+* [Altcoins](Altcoins.md)
+  * [Namecoin](Namecoin.md)
+  * [Mining Altcoins](MiningAltCoins.md)
 
