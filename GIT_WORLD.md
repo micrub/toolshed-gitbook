@@ -1,7 +1,5 @@
 # Git World
 
-Some content
-
 ## Gitlab Community edition - self hosting
 
 ### Installation
