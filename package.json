@@ -15,7 +15,7 @@
   "bugs": {
     "url": "https://github.com/micrub/toolshed-gitbook/issues"
   },
-  "homepage": "https://github.com/micrub/toolshed-gitbook#readme",
+  "homepage": "http://toolshed.surge.sh/_book/",
   "devDependencies": {
     "gitbook-cli": "^2.3.0",
     "surge": "^0.19.0"
