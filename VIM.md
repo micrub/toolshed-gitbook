@@ -45,3 +45,9 @@ path, otherwise the file is placed in the current directory.
 is used for all buffers where `spell` is set.  It is
 not stored, it is lost when you exit Vim.  It is also cleared when `encoding`
 is set.
+
+# Vim should not highlight strings between quotes in Markdown files
+
+```
+au BufRead,BufNewFile *.md set filetype=markdown
+```
