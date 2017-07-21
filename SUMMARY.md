@@ -5,6 +5,7 @@
   * [BASH](BASH.md)
   * [ZSH](BASH.md)
   * [GIT](GIT_WORLD.md)
+  * [VIM](VIM.md)
 * [Altcoins](Altcoins.md)
   * [Namecoin](Namecoin.md)
   * [Mining Altcoins](MiningAltCoins.md)

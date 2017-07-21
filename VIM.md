@@ -51,3 +51,34 @@ is set.
 ```
 au BufRead,BufNewFile *.md set filetype=markdown
 ```
+
+# Using Vim with Syntastic and ESLint
+
+Install [ Syntastic ](http://vimawesome.com/plugin/syntastic) if you haven’t already.
+I use [ Vundle ](https://github.com/VundleVim/Vundle.vim) as my Vim plugin manager.
+
+```
+Plugin 'vim-syntastic/syntastic'
+```
+
+Install/update plugins:
+
+```
+vim +PluginUpdate
+```
+
+Install `eslint` globally.
+
+```
+npm install eslint --global
+```
+
+Add `eslint` as **checker** for Javascript files.
+
+```
+let g:syntastic_javascript_checkers=['eslint']
+```
+
+## Reference
+
+* [Using Vim with Syntastic and ESLint](http://remarkablemark.org/blog/2016/09/28/vim-syntastic-eslint/)
