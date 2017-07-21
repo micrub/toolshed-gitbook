@@ -79,6 +79,41 @@ Add `eslint` as **checker** for Javascript files.
 let g:syntastic_javascript_checkers=['eslint']
 ```
 
+## Other option is to use [standard](https://standardjs.com/) and [ale](https://github.com/w0rp/ale)
+
+```
+npm install standard --save-dev
+
+```
+After you've installed standard, you should be able to use the standard program.
+The simplest use case would be checking the style of all JavaScript files in the
+current working directory:
+
+```
+./node_modules/standard/bin/cmd.js
+The react/jsx-space-before-closing rule is deprecated. Please use the react/jsx-tag-spacing rule with the "beforeSelfClosing" option instead.
+standard: Use JavaScript Standard Style (https://standardjs.com)
+standard: Run `standard --fix` to automatically fix some problems.
+  /app.js:2:10: Missing space before function parentheses.
+```
+
+You can optionally pass in a directory (or directories) using the glob pattern.
+Be sure to quote paths containing glob patterns so that they are expanded by
+standard instead of your shell:
+
+```
+./node_modules/standard/bin/cmd.js "src/util/**/*.js" "test/**/*.js"
+```
+
+Install `standard` globally:
+
+`npm install standard --global`
+
+## [ Ale ](https://github.com/w0rp/ale) - <i class="fa fa-tasks" aria-hidden="true"></i>
+
+Using [ Ale ](https://github.com/w0rp/ale) requires installed [ NeoVim ](https://neovim.io/) or
+[ Vim 8 ](https://github.com/vim/vim/blob/master/runtime/doc/version8.txt).
+
 ## Reference
 
 * [Using Vim with Syntastic and ESLint](http://remarkablemark.org/blog/2016/09/28/vim-syntastic-eslint/)
